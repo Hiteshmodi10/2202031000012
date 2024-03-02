@@ -1,0 +1,16 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.movie-card {
+  border: 1px solid #262626;
+  background-color: #1a1a1a;
+  padding: 20px 20px 10px 20px;
+  border-radius: 12px;
+}
+.free-tial-container {
+  background-image: url("./assets/free-r-trial-b-img.png");
+  background-repeat: no-repeat;
+  margin: 55px 25px;
+}

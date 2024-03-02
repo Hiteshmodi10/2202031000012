@@ -1,0 +1,153 @@
+body {
+  background-color: black;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.navigation {
+  position: sticky;
+  top: 0;
+  z-index: 22;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  padding-top: 20px;
+}
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+.nav-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.section-1 {
+  padding: 20px;
+}
+
+.bg-img-hero img {
+  width: 100%;
+  z-index: -10;
+  position: absolute;
+}
+.bg-img-1 {
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.bg-img-2 {
+  top: 24%;
+  left: 0;
+}
+.bg-img-3 {
+  top: 48%;
+  left: 0;
+}
+.bg-img-4 {
+  top: 72%;
+  left: 0;
+}
+.abstract-design-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.abstract-design-hero img {
+  margin: 0 auto;
+  height: 400px;
+  width: 400px;
+  margin-bottom: 60px;
+}
+
+.streaming-experiences {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  color: white;
+}
+.description {
+  color: gray;
+}
+.hero-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+  padding: 5px 5px;
+  border-radius: 4px;
+}
+button {
+  background-color: transparent;
+  border: none;
+  font-size: smaller;
+  color: white;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px 40px;
+}
+
+.streaming-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+.streaming-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #262626;
+  border-radius: 12px;
+  background: linear-gradient(45deg, #0f0f0f 59%, #e50000 273%);
+}
+
+.streaming-title-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+.streaming-card-description {
+  width: fit-content;
+}
+.number-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  height: 40px;
+  width: 40px;
+  background-color: #1f1f1f;
+  border: 1px solid #262626;
+  border-radius: 4px;
+}
+.faq-container {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.pricing-card-container {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #1a1a1a;
+  padding: 30px;
+  border-radius: 11px;
+  border: 1px solid #262626;
+}
